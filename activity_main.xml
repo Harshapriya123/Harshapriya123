@@ -1,450 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
- <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-   xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+​
     <LinearLayout
-     android:id="@+id/activity_main"
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:layout_marginBottom="24dp"
-     android:layout_marginLeft="16dp"
-     android:layout_marginRight="16dp"
-     android:layout_marginTop="24dp"
-     android:orientation="vertical">
-      <TextView
-      
-      
-                    android:id="@+id/question_powerhouse"
-      
-      
-                    style="@style/Questions"
-      
-      
-                    android:text="@string/question_powerhouse" />
-      
-      
-        
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical">
 
-      
-      
-                <EditText
-      
-      
-                    android:id="@+id/answer_powerhouse"
-      
-      
-                    style="@style/Hint"
-      
-      
-                    android:hint="@string/hint_edit_view" />
-      
-      
-        
+        <TextView
+            android:id="@+id/question_powerhouse"
+            style="@style/Questions"
+            android:text="@string/question_powerhouse" />
 
-      
-      
-        
+        <EditText
+            android:id="@+id/answer_powerhouse"
+            style="@style/Hint"
+            android:hint="@string/hint_edit_view" />
 
-      
-      
-                <TextView
-      
-      
-                    android:id="@+id/textView2"
-      
-      
-                    style="@style/Questions"
-      
-      
-                    android:text="@string/question_peru_capital" />
-      
-      
-        
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/Questions"
+            android:text="@string/question_peru_capital" />
 
-      
-      
-                <RadioGroup
-      
-      
-                    android:layout_width="match_parent"
-      
-      
-                    android:layout_height="wrap_content"
-      
-      
-                    android:orientation="vertical">
-      
-      
-        
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-      
-      
-                    <RadioButton
-      
-      
-                        android:id="@+id/buenos_aires"
-      
-      
-                        style="@style/IconList"
-      
-      
-                        android:text="@string/answer1_peru_capital" />
-      
-      
-        
+            <RadioButton
+                android:id="@+id/buenos_aires"
+                style="@style/IconList"
+                android:text="@string/answer1_peru_capital" />
 
-      
-      
-                    <RadioButton
-      
-      
-                        android:id="@+id/lima"
-      
-      
-                        style="@style/IconList"
-      
-      
-                        android:text="@string/answer2_peru_capital" />
-      
-      
-        
+            <RadioButton
+                android:id="@+id/lima"
+                style="@style/IconList"
+                android:text="@string/answer2_peru_capital" />
 
-      
-      
-                    <RadioButton
-      
-      
-                        android:id="@+id/nicosia"
-      
-      
-                        style="@style/IconList"
-      
-      
-                        android:layout_marginBottom="24dp"
-      
-      
-                        android:text="@string/answer3_peru_capital" />
-      
-      
-        
+            <RadioButton
+                android:id="@+id/nicosia"
+                style="@style/IconList"
+                android:layout_marginBottom="24dp"
+                android:text="@string/answer3_peru_capital" />
 
-      
-      
-                </RadioGroup>
-      
-      
-        
+        </RadioGroup>
 
-      
-      
-        
 
-      
-      
-                <TextView
-      
-      
-                    android:id="@+id/textView"
-      
-      
-                    style="@style/Questions"
-      
-      
-                    android:text="@string/question_os" />
-      
-      
-        
-
-      
-      
-                <CheckBox
-      
-      
-                    android:id="@+id/samsung"
-      
-      
-                    style="@style/IconList"
-      
-      
-                    android:text="@string/answer1_os" />
-      
-      
-        
-
-      
-      
-                <CheckBox
-      
-      
-                    android:id="@+id/ios"
-      
-      
-                    style="@style/IconList"
-      
-      
-                    android:text="@string/answer2_os" />
-      
-      
-        
-
-      
-      
-                <CheckBox
-      
-      
-                    android:id="@+id/android"
-      
-      
-                    style="@style/IconList"
-      
-      
-                    android:layout_marginBottom="24dp"
-      
-      
-                    android:text="@string/answer3_os" />
-      
-      
-        
-
-      
-      
-        
-
-      
-      
-        
-
-      
-      
-                <TextView
-      
-      
-                    style="@style/Questions"
-      
-      
-                    android:text="@string/question_southpark" />
-      
-      
-        
-
-      
-      
-                <RadioGroup
-      
-      
-                    android:layout_width="match_parent"
-      
-      
-                    android:layout_height="wrap_content"
-      
-      
-                    android:orientation="vertical">
-      
-      
-        
-
-      
-      
-                    <RadioButton
-      
-      
-                        android:id="@+id/stan"
-      
-      
-                        style="@style/IconList"
-      
-      
-                        android:text="@string/answer1_southpark" />
-      
-      
-        
-
-      
-      
-                    <RadioButton
-      
-      
-                        android:id="@+id/cartman"
-      
-      
-                        style="@style/IconList"
-      
-      
-                        android:text="@string/answer2_southpark" />
-      
-      
-        
-
-      
-      
-                    <RadioButton
-      
-      
-                        android:id="@+id/butters"
-      
-      
-                        style="@style/IconList"
-      
-      
-                        android:layout_marginBottom="24dp"
-      
-      
-                        android:text="@string/answer3_southpark" />
-      
-      
-        
-
-      
-      
-                </RadioGroup>
-      
-      
-        
-
-      
-      
-                <TextView
-      
-      
-                    android:id="@+id/textView2"
-      
-      
-                    style="@style/Questions"
-      
-      
-                    android:text="@string/question_tungsten" />
-      
-      
-        
-
-      
-      
-                <RadioGroup
-      
-      
-                    android:layout_width="match_parent"
-      
-      
-                    android:layout_height="wrap_content"
-      
-      
-                    android:orientation="vertical">
-      
-      
-        
-
-      
-      
-                    <RadioButton
-      
-      
-                        android:id="@+id/tu"
-      
-      
-                        style="@style/IconList"
-      
-      
-                        android:text="@string/answer1_tungsten" />
-      
-      
-        
-
-      
-      
-                    <RadioButton
-      
-      
-                        android:id="@+id/ta"
-      
-      
-                        style="@style/IconList"
-      
-      
-                        android:text="@string/answer2_tungsten" />
-      
-      
-        
-
-      
-      
-                    <RadioButton
-      
-      
-                        android:id="@+id/w"
-      
-      
-                        style="@style/IconList"
-      
-      
-                        android:layout_marginBottom="24dp"
-      
-      
-                        android:text="@string/answer3_tungsten" />
-      
-      
-        
-
-      
-      
-                </RadioGroup>
-      
-      
-        
-
-      
-      
-                <RelativeLayout
-      
-      
-                    android:layout_width="match_parent"
-      
-      
-                    android:layout_height="wrap_content">
-      
-      
-        
-
-      
-      
-                    <Button
-      
-      
-                        android:layout_width="wrap_content"
-      
-      
-                        android:layout_height="wrap_content"
-      
-      
-                        android:layout_centerHorizontal="true"
-      
-      
-                        android:layout_marginBottom="28dp"
-      
-      
-                        android:layout_marginTop="8dp"
-      
-      
-                        android:backgroundTint="#69686b"
-      
-      
-                        android:onClick="submitAnswers"
-      
-      
-                        android:text="@string/submit_answers_button"
-      
-      
-                        android:textColor="#ffffff" />
-      
-      
-                </RelativeLayout>
-      
-      
-        
-
-      
-      
-            </LinearLayout>
-      
-      
-        </ScrollView>

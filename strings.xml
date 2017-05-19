@@ -1,0 +1,109 @@
+<resources>
+      
+      
+        
+
+
+      
+      
+            <string name="app_name">Random questions quiz</string>
+      
+      
+            <string name="question_powerhouse">1. What is the powerhouse of the cell?</string>
+      
+      
+            <string name="question_peru_capital">2. What is the capital of Peru? </string>
+      
+      
+            <string name="question_os">3. Which of the following are operating systems?</string>
+      
+      
+            <string name="question_southpark">4. On the TV show "South Park", which character wears a blue hat with a yellow pom-pom on it?</string>
+      
+      
+            <string name="question_tungsten">5. What is chemical symbol for Tungsten?</string>
+      
+      
+            <string name="hint_edit_view">Write your answer here&#8230;</string>
+      
+      
+        
+
+      
+      
+            <string name="submit_answers_button">Submit Answers</string>
+      
+      
+        
+
+      
+      
+            <string name="answer1_peru_capital">Buenos Aires</string>
+      
+      
+            <string name="answer2_peru_capital">Lima</string>
+      
+      
+            <string name="answer3_peru_capital">Nicosia</string>
+      
+      
+        
+
+      
+      
+            <string name="answer1_os">Samsung</string>
+      
+      
+            <string name="answer2_os">IOS</string>
+      
+      
+            <string name="answer3_os">Android</string>
+      
+      
+        
+
+      
+      
+        
+
+      
+      
+            <string name="answer1_southpark">Stan</string>
+      
+      
+            <string name="answer2_southpark">Cartman</string>
+      
+      
+            <string name="answer3_southpark">Butters</string>
+      
+      
+        
+
+      
+      
+            <string name="answer1_tungsten">Tu</string>
+      
+      
+            <string name="answer2_tungsten">Ta</string>
+      
+      
+            <string name="answer3_tungsten">W</string>
+      
+      
+        
+
+      
+      
+        
+
+      
+      
+        
+
+      
+      
+        
+
+      
+      
+        </resources>
